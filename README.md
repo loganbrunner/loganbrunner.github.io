@@ -1,8 +1,27 @@
+# Logan Brunner's GitHub Page
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Installation
+
+After cloning the repository, run the command
+```
+npm install
+```
+
+After this finishes installing, then you need to run the following command in the `src/assets/fomantic` directory to build the distribution of the Fomantic-UI CSS and JS:
+```
+npx gulp build
+```
+**Note**: you must have Gulp installed globally, which you can do with `npm install -g gulp`.
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm run deploy`
+
+Builds the app and deploys it to the master branch in the remote repository.
 
 ### `npm start`
 
