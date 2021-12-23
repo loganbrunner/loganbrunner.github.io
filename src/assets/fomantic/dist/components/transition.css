@@ -88,8 +88,8 @@
 */
 
 /*--------------
-     Browse
----------------*/
+       Browse
+  ---------------*/
 
 .transition.browse {
   -webkit-animation-duration: 500ms;
@@ -226,8 +226,8 @@
 }
 
 /*--------------
-     Drop
----------------*/
+       Drop
+  ---------------*/
 
 .drop.transition {
   transform-origin: top center;
@@ -288,8 +288,8 @@
 }
 
 /*--------------
-      Fade
----------------*/
+        Fade
+  ---------------*/
 
 .transition.fade.in {
   -webkit-animation-name: fadeIn;
@@ -529,8 +529,8 @@
 }
 
 /*--------------
-     Flips
----------------*/
+       Flips
+  ---------------*/
 
 .flip.transition.in,
 .flip.transition.out {
@@ -639,8 +639,8 @@
 }
 
 /*--------------
-      Scale
----------------*/
+        Scale
+  ---------------*/
 
 .scale.transition.in {
   -webkit-animation-name: scaleIn;
@@ -694,8 +694,8 @@
 }
 
 /*--------------
-      Fly
----------------*/
+        Fly
+  ---------------*/
 
 
 /* Inward */
@@ -1074,8 +1074,8 @@
 }
 
 /*--------------
-     Slide
----------------*/
+       Slide
+  ---------------*/
 
 .transition.slide.in,
 .transition[class*="slide down"].in {
@@ -1091,12 +1091,12 @@
 .transition[class*="slide left"].in {
   -webkit-animation-name: slideInX;
           animation-name: slideInX;
-  transform-origin: center right;
+  transform-origin: right center;
 }
 .transition[class*="slide right"].in {
   -webkit-animation-name: slideInX;
           animation-name: slideInX;
-  transform-origin: center left;
+  transform-origin: left center;
 }
 .transition.slide.out,
 .transition[class*="slide down"].out {
@@ -1112,12 +1112,12 @@
 .transition[class*="slide left"].out {
   -webkit-animation-name: slideOutX;
           animation-name: slideOutX;
-  transform-origin: center right;
+  transform-origin: right center;
 }
 .transition[class*="slide right"].out {
   -webkit-animation-name: slideOutX;
           animation-name: slideOutX;
-  transform-origin: center left;
+  transform-origin: left center;
 }
 
 /* In */
@@ -1205,8 +1205,8 @@
 }
 
 /*--------------
-     Swing
----------------*/
+       Swing
+  ---------------*/
 
 .transition.swing {
   -webkit-animation-duration: 800ms;
@@ -1225,12 +1225,12 @@
 .transition[class*="swing left"].in {
   -webkit-animation-name: swingInY;
           animation-name: swingInY;
-  transform-origin: center right;
+  transform-origin: right center;
 }
 .transition[class*="swing right"].in {
   -webkit-animation-name: swingInY;
           animation-name: swingInY;
-  transform-origin: center left;
+  transform-origin: left center;
 }
 .transition.swing.out,
 .transition[class*="swing down"].out {
@@ -1246,12 +1246,12 @@
 .transition[class*="swing left"].out {
   -webkit-animation-name: swingOutY;
           animation-name: swingOutY;
-  transform-origin: center right;
+  transform-origin: right center;
 }
 .transition[class*="swing right"].out {
   -webkit-animation-name: swingOutY;
           animation-name: swingOutY;
-  transform-origin: center left;
+  transform-origin: left center;
 }
 
 /* In */
@@ -1411,8 +1411,8 @@
 }
 
 /*--------------
-      Zoom
----------------*/
+        Zoom
+  ---------------*/
 
 .transition.zoom.in {
   -webkit-animation-name: zoomIn;

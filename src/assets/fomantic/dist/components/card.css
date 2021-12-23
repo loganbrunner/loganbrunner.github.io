@@ -325,7 +325,7 @@
 
 .ui.cards > .card .dimmer,
 .ui.card .dimmer {
-  background-color: '';
+  background: '';
   z-index: 10;
 }
 

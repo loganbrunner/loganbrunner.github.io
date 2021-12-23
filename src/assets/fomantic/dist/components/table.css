@@ -100,7 +100,7 @@
   text-align: inherit;
   color: rgba(0, 0, 0, 0.87);
   padding: 0.78571429em 0.78571429em;
-  vertical-align: middle;
+  vertical-align: inherit;
   font-style: normal;
   font-weight: normal;
   text-transform: none;
@@ -145,10 +145,10 @@
 }
 
 /* Icons */
-.ui.table > .icon {
+.ui.table > i.icon {
   vertical-align: baseline;
 }
-.ui.table > .icon:only-child {
+.ui.table > i.icon:only-child {
   margin: 0;
 }
 
@@ -1676,7 +1676,6 @@
 .ui.sortable.table thead th.sorted,
 .ui.sortable.table thead th.sorted:hover {
   -webkit-user-select: none;
-     -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
 }
