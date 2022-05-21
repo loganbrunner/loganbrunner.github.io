@@ -1,5 +1,5 @@
 /*!
- * # Fomantic-UI - Ad
+ * # Fomantic-UI 2.8.8 - Ad
  * http://github.com/fomantic/Fomantic-UI/
  *
  *
@@ -248,7 +248,8 @@
   left: 50%;
   width: 100%;
   text-align: center;
-  transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
   content: 'Ad';
   color: #FFFFFF;
   font-size: 1em;

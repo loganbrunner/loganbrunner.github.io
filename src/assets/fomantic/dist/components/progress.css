@@ -1,5 +1,5 @@
 /*!
- * # Fomantic-UI - Progress Bar
+ * # Fomantic-UI 2.8.8 - Progress Bar
  * http://github.com/fomantic/Fomantic-UI/
  *
  *
@@ -15,7 +15,7 @@
 
 .ui.progress {
   position: relative;
-  display: block;
+  display: flex;
   max-width: 100%;
   border: none;
   margin: 1em 0 2.5em;
@@ -75,6 +75,13 @@
   margin-top: -0.5em;
   font-weight: bold;
   text-align: left;
+}
+.ui.right.aligned.progress {
+  justify-content: flex-end;
+}
+.ui.right.aligned.progress .bar > .progress {
+  left: 0.5em;
+  right: auto;
 }
 
 /* Label */
@@ -243,11 +250,6 @@
   color: #1A531B;
 }
 
-/* Multiple */
-.ui.multiple.progress {
-  display: flex;
-}
-
 
 /*******************************
              States
@@ -322,26 +324,35 @@
   border-radius: 0.28571429rem;
   -webkit-animation: progress-active 2s ease infinite;
           animation: progress-active 2s ease infinite;
-  transform-origin: left;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+.ui.active.right.aligned.progress .bar::after {
+  -webkit-transform-origin: right;
+          transform-origin: right;
 }
 @-webkit-keyframes progress-active {
   0% {
     opacity: 0.3;
-    transform: scale(0, 1);
+    -webkit-transform: scale(0, 1);
+            transform: scale(0, 1);
   }
   100% {
     opacity: 0;
-    transform: scale(1);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 @keyframes progress-active {
   0% {
     opacity: 0.3;
-    transform: scale(0, 1);
+    -webkit-transform: scale(0, 1);
+            transform: scale(0, 1);
   }
   100% {
     opacity: 0;
-    transform: scale(1);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 
@@ -405,7 +416,6 @@
 }
 .ui.progress.attached,
 .ui.progress.attached .bar {
-  display: block;
   height: 0.2rem;
   padding: 0;
   overflow: hidden;
@@ -659,6 +669,7 @@
 .ui.progress .bar .centered.progress {
   text-align: center;
   position: relative;
+  right: 0;
 }
 .ui.indeterminate.progress .bar::before {
   content: '';
@@ -668,7 +679,8 @@
   border-radius: 0.28571429rem;
   -webkit-animation: progress-pulsating 2s ease infinite;
           animation: progress-pulsating 2s ease infinite;
-  transform-origin: center;
+  -webkit-transform-origin: center;
+          transform-origin: center;
   width: 100%;
 }
 .ui.slow.indeterminate.progress .bar::before {
@@ -680,12 +692,14 @@
           animation-duration: 1s;
 }
 .ui.swinging.indeterminate.progress .bar::before {
-  transform-origin: left;
+  -webkit-transform-origin: left;
+          transform-origin: left;
   -webkit-animation-name: progress-swinging;
           animation-name: progress-swinging;
 }
 .ui.sliding.indeterminate.progress .bar::before {
-  transform-origin: left;
+  -webkit-transform-origin: left;
+          transform-origin: left;
   -webkit-animation-name: progress-sliding;
           animation-name: progress-sliding;
 }
@@ -772,10 +786,12 @@
 }
 @-webkit-keyframes progress-filling {
   0% {
-    transform: scale(0, 1);
+    -webkit-transform: scale(0, 1);
+            transform: scale(0, 1);
   }
   80% {
-    transform: scale(1);
+    -webkit-transform: scale(1);
+            transform: scale(1);
     opacity: 1;
   }
   100% {
@@ -784,10 +800,12 @@
 }
 @keyframes progress-filling {
   0% {
-    transform: scale(0, 1);
+    -webkit-transform: scale(0, 1);
+            transform: scale(0, 1);
   }
   80% {
-    transform: scale(1);
+    -webkit-transform: scale(1);
+            transform: scale(1);
     opacity: 1;
   }
   100% {
@@ -796,21 +814,25 @@
 }
 @-webkit-keyframes progress-pulsating {
   0% {
-    transform: scale(0, 1);
+    -webkit-transform: scale(0, 1);
+            transform: scale(0, 1);
     opacity: 0.7;
   }
   100% {
-    transform: scale(1);
+    -webkit-transform: scale(1);
+            transform: scale(1);
     opacity: 0;
   }
 }
 @keyframes progress-pulsating {
   0% {
-    transform: scale(0, 1);
+    -webkit-transform: scale(0, 1);
+            transform: scale(0, 1);
     opacity: 0.7;
   }
   100% {
-    transform: scale(1);
+    -webkit-transform: scale(1);
+            transform: scale(1);
     opacity: 0;
   }
 }

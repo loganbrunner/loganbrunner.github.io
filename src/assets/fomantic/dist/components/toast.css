@@ -1,5 +1,5 @@
 /*!
- * # Fomantic-UI - Toast
+ * # Fomantic-UI 2.8.8 - Toast
  * http://github.com/fomantic/Fomantic-UI/
  *
  *
@@ -17,6 +17,48 @@
   position: fixed;
   z-index: 9999;
 }
+.ui.toast-container.ui.attached {
+  width: 100%;
+  left: 0;
+}
+.ui.toast-container.ui.attached .vertical.attached {
+  border-radius: 0;
+}
+.ui.toast-container.ui.attached.ui.ui .attached.actions .button {
+  border-radius: 0;
+}
+.ui.toast-container.ui.attached .toast-box {
+  margin: 0;
+  width: 100%;
+  border-radius: 0;
+}
+.ui.toast-container.ui.attached .toast-box > .ui.toast,
+.ui.toast-container.ui.attached .toast-box > .ui.message {
+  margin-left: 0;
+}
+.ui.toast-container.ui.attached .toast-box.floating,
+.ui.toast-container.ui.attached .toast-box.hoverfloating:hover {
+  border: none;
+}
+.ui.toast-container.ui.attached .toast-box > .vertical > .content {
+  flex: 1;
+}
+.ui.toast-container.ui.attached .toast-box > * {
+  width: 100%;
+  border-radius: 0;
+}
+.ui.toast-container.ui.attached .toast-box > * > .vertical:not(.actions) {
+  flex: 1;
+}
+.ui.toast-container.ui.attached .toast-box > .attached.actions {
+  margin-right: 1px;
+}
+.ui.toast-container.ui.attached.top {
+  top: 0;
+}
+.ui.toast-container.ui.attached.bottom {
+  bottom: 0;
+}
 .ui.toast-container.top.right {
   top: 0.85714286em;
   right: 0.85714286em;
@@ -29,7 +71,8 @@
 }
 .ui.toast-container.top.center {
   left: 50%;
-  transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
   top: 0.85714286em;
 }
 .ui.toast-container.bottom.right {
@@ -44,13 +87,21 @@
 }
 .ui.toast-container.bottom.center {
   left: 50%;
-  transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
   bottom: 0.85714286em;
 }
 .ui.toast-container .visible.toast-box,
 .ui.toast-container .animating.toast-box,
 .ui.toast-container .toast-box {
   display: table !important;
+}
+.ui.toast-container.horizontal {
+  display: flex;
+  flex-direction: row;
+}
+.ui.toast-container.horizontal .toast-box {
+  margin-right: 0.5em;
 }
 .ui.toast-container .toast-box {
   margin-bottom: 0.5em;
@@ -122,11 +173,13 @@
   position: absolute;
   width: 4rem;
   top: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 .ui.toast-container .toast-box > .ui.message.icon:not(.vertical).actions > i.icon:not(.close) {
   top: calc(50% - 1.2em);
-  transform: none;
+  -webkit-transform: none;
+          transform: none;
 }
 .ui.toast-container .toast-box > .ui.message.icon:not(.vertical).icon.icon.icon {
   display: block;
@@ -304,9 +357,6 @@
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
-.ui.vertical.attached.left.actions .button:not(:first-child):not(:last-child) {
-  margin-left: -1px;
-}
 .ui.vertical.attached.left.message.message.message {
   border-top-right-radius: 0.28571429rem;
   border-bottom-right-radius: 0.28571429rem;
@@ -373,7 +423,10 @@
 .ui.toast > i.icon:not(.close) {
   font-size: 1.5em;
 }
-.ui.toast:not(.vertical) > i.icon:not(.close) {
+.ui.toast:not(.vertical):not(.centered):not(.center) > i.icon:not(.close) {
+  position: absolute;
+}
+.ui.toast:not(.vertical):not(.centered):not(.center) > .ui.image {
   position: absolute;
 }
 .ui.toast:not(.vertical) > i.icon:not(.close) + .content {
@@ -381,9 +434,6 @@
 }
 .ui.toast:not(.vertical) > .close.icon + .content {
   padding-left: 1.5em;
-}
-.ui.toast:not(.vertical) > .ui.image {
-  position: absolute;
 }
 .ui.toast:not(.vertical) > .ui.image.avatar + .content {
   padding-left: 3em;
@@ -401,9 +451,10 @@
   padding-left: 12em;
   min-height: 150px;
 }
-.ui.toast:not(.vertical) > .centered.image,
-.ui.toast:not(.vertical) > .centered.icon {
-  transform: translateY(-50%);
+.ui.toast:not(.vertical):not(.centered):not(.center) > .centered.image,
+.ui.toast:not(.vertical):not(.centered):not(.center) > .centered.icon {
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   top: 50%;
 }
 .ui.toast:not(.vertical).actions > .centered.image {
@@ -446,6 +497,33 @@
 }
 .ui.center.toast-container .toast-box {
   margin-right: auto;
+}
+.ui.ui.toast-container .toast-box .centered.toast,
+.ui.ui.toast-container .toast-box .center.aligned.toast {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.ui.ui.toast-container .toast-box .centered.toast > .content,
+.ui.ui.toast-container .toast-box .center.aligned.toast > .content,
+.ui.ui.toast-container .toast-box .centered.toast > .ui.image,
+.ui.ui.toast-container .toast-box .center.aligned.toast > .ui.image,
+.ui.ui.toast-container .toast-box .centered.toast > i.icon:not(.close),
+.ui.ui.toast-container .toast-box .center.aligned.toast > i.icon:not(.close) {
+  align-self: center;
+}
+.ui.toast-container .toast-box .toast .centered.content,
+.ui.toast-container .toast-box .toast .center.aligned.content {
+  text-align: center;
+}
+.ui.toast-container .toast-box .centered.actions,
+.ui.toast-container .toast-box .center.aligned.actions {
+  text-align: center;
+}
+.ui.toast-container .toast-box .centered.actions:not(.attached) > .button:not(.fluid),
+.ui.toast-container .toast-box .center.aligned.actions:not(.attached) > .button:not(.fluid) {
+  margin-left: 0.25em;
+  margin-right: 0.25em;
 }
 
 /*--------------

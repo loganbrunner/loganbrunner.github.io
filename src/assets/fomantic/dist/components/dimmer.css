@@ -1,5 +1,5 @@
 /*!
- * # Fomantic-UI - Dimmer
+ * # Fomantic-UI 2.8.8 - Dimmer
  * http://github.com/fomantic/Fomantic-UI/
  *
  *
@@ -132,9 +132,12 @@
 
 .ui.page.dimmer {
   position: fixed;
-  transform-style: '';
-  perspective: 2000px;
-  transform-origin: center center;
+  -webkit-transform-style: '';
+          transform-style: '';
+  -webkit-perspective: 2000px;
+          perspective: 2000px;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
 }
 .ui.page.dimmer.modals {
   -moz-perspective: none;
@@ -407,10 +410,12 @@ body.dimmable > .dimmer {
     -webkit-transform: translateY(calc(-50% - 0.5px));
   }
   40% {
-    transform: translateY(calc(-50% - 30px));
+    -webkit-transform: translateY(calc(-50% - 30px));
+            transform: translateY(calc(-50% - 30px));
   }
   60% {
-    transform: translateY(calc(-50% - 15px));
+    -webkit-transform: translateY(calc(-50% - 15px));
+            transform: translateY(calc(-50% - 15px));
   }
 }
 @keyframes bounceCenter {
@@ -423,10 +428,12 @@ body.dimmable > .dimmer {
     -webkit-transform: translateY(calc(-50% - 0.5px));
   }
   40% {
-    transform: translateY(calc(-50% - 30px));
+    -webkit-transform: translateY(calc(-50% - 30px));
+            transform: translateY(calc(-50% - 30px));
   }
   60% {
-    transform: translateY(calc(-50% - 15px));
+    -webkit-transform: translateY(calc(-50% - 15px));
+            transform: translateY(calc(-50% - 15px));
   }
 }
 

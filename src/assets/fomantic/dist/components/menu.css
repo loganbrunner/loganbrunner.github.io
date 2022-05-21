@@ -202,7 +202,9 @@
   background: #FFFFFF;
   margin: 0 0 0;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08);
-  flex-direction: column !important;
+}
+.ui.menu .dropdown.item:not(.column) .menu {
+  flex-direction: column;
 }
 
 /* Menu Items */
@@ -272,7 +274,6 @@
 /* IE needs 0, all others support max-content to show dropdown icon inline, so keep both settings! */
   min-width: 0;
   min-width: -webkit-max-content;
-  min-width: -moz-max-content;
   min-width: max-content;
   margin: 0 0 0 0;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08);
@@ -1856,7 +1857,8 @@ Floated Menu / Item
   content: '';
   top: 100%;
   left: 50%;
-  transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+          transform: translateX(-50%) translateY(-50%) rotate(45deg);
   background: none;
   margin: 0.5px 0 0;
   width: 0.57142857em;
@@ -1873,7 +1875,8 @@ Floated Menu / Item
   right: 0;
   bottom: auto;
   left: auto;
-  transform: translateX(50%) translateY(-50%) rotate(45deg);
+  -webkit-transform: translateX(50%) translateY(-50%) rotate(45deg);
+          transform: translateX(50%) translateY(-50%) rotate(45deg);
   margin: 0 -0.5px 0 0;
   border: none;
   border-top: 1px solid #D4D4D5;

@@ -1,5 +1,5 @@
 /*!
- * # Fomantic-UI - Search
+ * # Fomantic-UI 2.8.8 - Search
  * http://github.com/fomantic/Fomantic-UI/
  *
  *
@@ -54,7 +54,8 @@
   position: absolute;
   top: 100%;
   left: 0;
-  transform-origin: center top;
+  -webkit-transform-origin: center top;
+          transform-origin: center top;
   white-space: normal;
   text-align: left;
   text-transform: none;

@@ -1,4 +1,3 @@
-import React from 'react';
 import './assets/fomantic/dist/semantic.css';
 import logo from './logo.svg';
 import './App.css';
