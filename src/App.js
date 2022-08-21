@@ -3,6 +3,7 @@ import NavBar from './NavBar';
 import Home from './Home';
 import About from './About';
 import Research from './Research';
+import Activity from './Activity';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="Research" element={<Research />} />
+        <Route path="Activity" element={<Activity />} />
       </Routes>
     </div>
   );

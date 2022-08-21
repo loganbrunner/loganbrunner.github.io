@@ -33,6 +33,7 @@ function Home() {
       </Segment>
       <br />
       <br />
+      <a target='_blank' href='https://icons8.com/icon/4479/oak-tree' rel='noreferrer'>Oak Tree</a> icon by <a target='_blank' rel='noreferrer' href='https://icons8.com'>Icons8</a>
     </Container>
   );
 }

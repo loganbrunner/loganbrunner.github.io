@@ -1,4 +1,25 @@
-# Getting Started with Create React App
+# Logan Brunner's Homepage
+https://loganbrunner.github.io/
+
+This project uses [gh-pages](https://www.npmjs.com/package/gh-pages) to deploy a [React](https://reactjs.org/) app routed with [React Router](https://reactrouterdotcom.fly.dev/) and styled with [Fomantic-UI](https://fomantic-ui.com/) and [Styled Components](https://styled-components.com/).
+
+## Development
+Development is done on the `dev` branch. Don't use the default `main` branch since this contains the production build that is deployed by `gh-pages` and is then used by GitHub Pages to show the site.
+
+To run the development server, use:
+```
+npm start
+```
+
+## Deploy
+To deploy to GitHub Pages, run the script:
+```
+npm run deploy
+```
+
+This will push to the default `main` branch which will deploy the app.
+
+## About
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
