@@ -7,11 +7,11 @@ function Home() {
         <Grid.Column width={8}>
           <Header as='h1'>
             Logan Brunner
-            <Header.Subheader>Risk and resilience researcher on civil systems</Header.Subheader>
+            <Header.Subheader>Risk and resilience researcher of civil systems</Header.Subheader>
           </Header>
         </Grid.Column>
         <Grid.Column width={8}>
-          <Image src='images/logan_picture_square.jpg' size='medium' />
+          <Image src='images/logan_picture_uc.jpg' size='medium' />
         </Grid.Column>
       </Grid>
 
