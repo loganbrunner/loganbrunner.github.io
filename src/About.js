@@ -17,6 +17,9 @@ function About() {
           <Grid.Column width={4}>
             Environmental Systems Engineer
           </Grid.Column>
+          <Grid.Column width={4}>
+            Applied Geosciences Department
+          </Grid.Column>
         </Grid>
       </Segment>
 
