@@ -5,7 +5,7 @@ import { Header, Menu } from 'semantic-ui-react';
 import './NavBar.css';
 
 const TopBar = styled.div`
-padding-bottom: 80px;
+padding-bottom: 50px;
 text-align: center;
 display: flex;
 justify-content: center;
