@@ -19,7 +19,7 @@ I am a PhD candidate at the University of Canterbury in Ōtautahi Christchurch, 
 
 My previous research has been in data analytics for risk analysis, modeling sustainable energy systems, and developing interactive maps and web tools to support decision making.
 
-Outside of work, I enjoy hiking, biking, and whitewater kayaking and am a big supporter of accessible cities that promote active and public transport.
+Outside of work, I enjoy hiking, biking, and whitewater kayaking and support accessible cities that promote active and public transport.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
