@@ -7,7 +7,7 @@ subtitle: PhD Candidate, <a href="https://www.canterbury.ac.nz/">University of C
 profile:
   align: right
   image: logan_picture_outside_circle.png
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: Risk and resilience researcher of civil systems
 
 news: false # includes a list of news items
