@@ -150,6 +150,19 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://mingsun-kaust.github.io/" target="_blank">★</a>
 <a href="https://hdocmsu.github.io/" target="_blank">★</a>
 <a href="https://trandangtrungduc.github.io/" target="_blank">★</a>
+<a href="https://kinghowler.github.io/" target="_blank">★</a>
+<a href="https://anurye.github.io/" target="_blank">★</a>
+<a href="https://charlie-xiao.github.io/" target="_blank">★</a>
+<a href="https://giuseppeperelli.github.io/" target="_blank">★</a>
+<a href="https://shlee-lab.github.io/" target="_blank">★</a>
+<a href="https://devos50.github.io/" target="_blank">★</a>
+<a href="https://kocikowski.com/" target="_blank">★</a>
+<a href="https://vmooers.github.io/" target="_blank">★</a>
+<a href="https://jpfonseca.github.io/" target="_blank">★</a>
+<a href="https://dmitryryumin.github.io/" target="_blank">★</a>
+<a href="https://alexiglad.github.io/" target="_blank">★</a>
+<a href="https://nishanthjkumar.com/" target="_blank">★</a>
+<a href="https://joszuijderwijk.nl/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
