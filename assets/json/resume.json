@@ -1,9 +1,9 @@
 {
-  "basics": {
+  "general": {
     "name": "Logan Brunner",
-    "position": "PhD Candidate in Civil Systems Engineering",
+    "position": "Senior Risk Analyst & Researcher - Urban Intelligence",
     "image": "",
-    "email": "logan.brunner@pg.canterbury.ac.nz",
+    "email": "",
     "phone": "",
     "url": "",
     "summary": "",
@@ -30,7 +30,52 @@
       }
     ]
   },
+  "education": [
+    {
+      "institution": "University of Canterbury",
+      "location": "Christchurch, NZ",
+      "url": "https://www.canterbury.ac.nz/",
+      "area": "Department of Civil and Environmental Engineering",
+      "studyType": "PhD in Civil Engineering",
+      "startDate": "2022",
+      "endDate": "2025",
+      "courses": ["Thesis: 'Community Risk and Resilience in Interdependent Infrastructure Systems'"]
+    },
+    {
+      "institution": "Johns Hopkins University",
+      "location": "Baltimore, MD, USA",
+      "url": "https://www.jhu.edu/",
+      "area": "Department of Geography and Environmental Engineering",
+      "studyType": "Master of Science in Engineering",
+      "startDate": "2014",
+      "endDate": "2015"
+    },
+    {
+      "institution": "Johns Hopkins University",
+      "location": "Baltimore, MD, USA",
+      "url": "https://www.jhu.edu/",
+      "area": "Department of Geography and Environmental Engineering",
+      "studyType": "Bachelor of Science in Engineering",
+      "startDate": "2010",
+      "endDate": "2014"
+    }
+  ],
   "work": [
+    {
+      "name": "Urban Intelligence",
+      "location": "Christchurch, NZ",
+      "position": "Senior Risk Analyst & Researcher",
+      "url": "https://www.urbanintelligence.co.nz/",
+      "startDate": "2022",
+      "endDate": "present",
+      "summary": "Develop geospatial risk analysis methodologies and mapping software to assess natural hazard impacts across governmental, utility, and community infrastructure and assets.",
+      "highlights": [
+        "Write Python code to process geospatial data, assess the vulnerability, and understand the potential impacts",
+        "Develop methods to assess risk to complex infrastructure",
+        "Manage and support client usage of the interactive mapping platform",
+        "Led overhaul from JavaScript and Leaflet to React and Mapbox"
+      ]
+    },
     {
       "name": "TNO (Netherlands Organisation for Applied Scientific Research)",
       "location": "Utrecht, Netherlands",
@@ -68,37 +113,6 @@
         "Helped organize the 2023 & 2024 Annual Meetings.",
         "Led the SRA Risk Reading Group for 2 years."
       ]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Canterbury",
-      "location": "Christchurch, NZ",
-      "url": "https://www.canterbury.ac.nz/",
-      "area": "Civil Systems Engineering",
-      "studyType": "PhD",
-      "startDate": "2023",
-      "endDate": ""
-      // "score": "10",
-      // "courses": ["Theory of Relativity"]
-    },
-    {
-      "institution": "Johns Hopkins University",
-      "location": "Baltimore, MD, USA",
-      "url": "https://www.jhu.edu/",
-      "area": "Department of Geography and Environmental Engineering",
-      "studyType": "Master of Science in Engineering",
-      "startDate": "2014",
-      "endDate": "2015"
-    },
-    {
-      "institution": "Johns Hopkins University",
-      "location": "Baltimore, MD, USA",
-      "url": "https://www.jhu.edu/",
-      "area": "Department of Geography and Environmental Engineering",
-      "studyType": "Bachelor of Science in Engineering",
-      "startDate": "2010",
-      "endDate": "2014"
     }
   ],
   "selected publications": [

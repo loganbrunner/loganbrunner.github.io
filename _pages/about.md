@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate, <a href="https://www.canterbury.ac.nz/">University of Canterbury</a>
+subtitle: Senior Risk Analyst & Researcher, <a href="https://www.urbanintelligence.co.nz/">Urban Intelligence</a>
 
 profile:
   align: right
@@ -15,7 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a PhD candidate at the University of Canterbury in Ōtautahi Christchurch, Aotearoa New Zealand. My current research focuses on the risk to interdependent systems, particularly in the context of natural hazards. I am interested in the interaction between the many different systems that our society is built on, and how we can optimize these to develop more resilient communities.
+I am a Senior Risk Analyst and Researcher at Urban Intelligence in Ōtautahi Christchurch, Aotearoa New Zealand. My recent research focuses on the risk to interdependent systems, particularly in the context of natural hazards. I am interested in the interaction between the many different systems that our society is built on, and how we can optimize these to develop more resilient communities. I completed my PhD at the University of Canterbury in late 2025, which focused on modeling cascading failures, the recovery, and the burden on communities and businesses.
 
 My previous research has been in data analytics for risk analysis, modeling sustainable energy systems, and developing interactive maps and web tools to support decision making.
 
