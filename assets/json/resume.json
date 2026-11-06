@@ -1,7 +1,7 @@
 {
   "general": {
     "name": "Logan Brunner",
-    "position": "Senior Risk Analyst & Researcher - Urban Intelligence",
+    "position": "Senior Risk Specialist & Researcher - Urban Intelligence",
     "image": "",
     "email": "",
     "phone": "",
@@ -39,7 +39,9 @@
       "studyType": "PhD in Civil Engineering",
       "startDate": "2022",
       "endDate": "2025",
-      "courses": ["Thesis: 'Community Risk and Resilience in Interdependent Infrastructure Systems'"]
+      "courses": [
+        "Thesis: Community Risk and Resilience in Interdependent Infrastructure Systems"
+      ]
     },
     {
       "institution": "Johns Hopkins University",
@@ -64,7 +66,7 @@
     {
       "name": "Urban Intelligence",
       "location": "Christchurch, NZ",
-      "position": "Senior Risk Analyst & Researcher",
+      "position": "Senior Risk Specialist & Researcher",
       "url": "https://www.urbanintelligence.co.nz/",
       "startDate": "2022",
       "endDate": "present",
@@ -72,7 +74,7 @@
       "highlights": [
         "Write Python code to process geospatial data, assess the vulnerability, and understand the potential impacts",
         "Develop methods to assess risk to complex infrastructure",
-        "Manage and support client usage of the interactive mapping platform",
+        "Manage and support clients in risk analysis projects and in using our interactive mapping platform",
         "Led overhaul from JavaScript and Leaflet to React and Mapbox"
       ]
     },
