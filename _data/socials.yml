@@ -11,4 +11,4 @@ scholar_userid: KCf5KxMAAAAJ # your Google Scholar ID
 scopus_id: 57195722492 # your profile on Scopus
 research_gate_profile: Logan_Brunner2 # your profile on ResearchGate
 github_username: loganbrunner # your GitHub user name
-rss_icon: true # set to true to show the RSS icon
+rss_icon: false # set to true to show the RSS icon
