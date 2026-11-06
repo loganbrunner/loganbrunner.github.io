@@ -1,0 +1,23 @@
+/*******************************************************************************
+ * Site-specific style overrides, loaded last from assets/css/main.scss.
+ ******************************************************************************/
+
+// Blue accent colour in light mode (template default is purple).
+:root {
+  --global-theme-color: #0076df;
+  --global-hover-color: #0076df;
+}
+
+// Fonts (loaded via third_party_libraries.google_fonts in _config.yml).
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+.profile .more-info {
+  font-family: Barlow, sans-serif;
+}
+
+// Smaller social icons on the about page.
+.social .contact-icons {
+  font-size: 2.5rem;
+}
