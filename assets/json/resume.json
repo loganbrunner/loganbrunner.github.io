@@ -1,15 +1,8 @@
 {
-  "general": {
+  "basics": {
     "name": "Logan Brunner",
-    "position": "Senior Risk Specialist & Researcher - Urban Intelligence",
-    "image": "",
-    "email": "",
-    "phone": "",
-    "url": "",
-    "summary": "",
+    "label": "Senior Risk Specialist & Researcher - Urban Intelligence",
     "location": {
-      "address": "",
-      "postalCode": "",
       "city": "Christchurch",
       "countryCode": "NZ",
       "region": "Canterbury"
@@ -39,9 +32,7 @@
       "studyType": "PhD in Civil Engineering",
       "startDate": "2022",
       "endDate": "2025",
-      "courses": [
-        "Thesis: Community Risk and Resilience in Interdependent Infrastructure Systems"
-      ]
+      "courses": ["Thesis: Community Risk and Resilience in Interdependent Infrastructure Systems"]
     },
     {
       "institution": "Johns Hopkins University",
@@ -72,9 +63,9 @@
       "endDate": "present",
       "summary": "Develop geospatial risk analysis methodologies and mapping software to assess natural hazard impacts across governmental, utility, and community infrastructure and assets.",
       "highlights": [
-        "Manage and support clients in risk analysis projects and in using our interactive mapping platform",
         "Write Python code to process geospatial data, assess the vulnerability, and understand the potential impacts",
         "Develop methods to assess risk to complex infrastructure",
+        "Manage and support clients in risk analysis projects and in using our interactive mapping platform",
         "Led overhaul from JavaScript and Leaflet to React and Mapbox"
       ]
     },
@@ -94,7 +85,7 @@
       ]
     }
   ],
-  "service": [
+  "volunteer": [
     {
       "organization": "Society for Risk Analysis",
       "location": "Australia/New Zealand",
@@ -111,19 +102,15 @@
       "url": "https://www.sra.org/regional-organizations/australia-new-zealand/",
       "startDate": "2022",
       "endDate": "2025",
-      "highlights": [
-        "Helped organize the 2023 & 2024 Annual Meetings.",
-        "Led the SRA Risk Reading Group for 2 years."
-      ]
+      "highlights": ["Helped organize the 2023 & 2024 Annual Meetings.", "Led the SRA Risk Reading Group for 2 years."]
     }
   ],
-  "selected publications": [
+  "publications": [
     {
       "name": "Understanding cascading risks through real-world interdependent urban infrastructure",
       "publisher": "Reliability Engineering & System Safety",
       "releaseDate": "2023",
       "url": "https://doi.org/10.1016/j.ress.2023.109653"
-      // "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
     },
     {
       "name": "A Bayesian Belief Network to Assess Risk of CO2 Leakage Through Wellbores",
@@ -142,37 +129,22 @@
     {
       "name": "Data Statistics",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Machine Learning",
-        "Bayesian Statistics",
-        "Data Visualization"
-      ]
+      "keywords": ["Machine Learning", "Bayesian Statistics", "Data Visualization"]
     },
     {
       "name": "Programming",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Python, MATLAB, R",
-        "Linux, Windows, Mac",
-        "Parallel Processing"
-      ]
+      "keywords": ["Python, MATLAB, R", "Linux, Windows, Mac", "Parallel Processing"]
     },
     {
       "name": "Systems Analysis",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Model Design",
-        "Monte Carlo Simulation",
-        "Sensitivity Analysis"
-      ]
+      "keywords": ["Model Design", "Monte Carlo Simulation", "Sensitivity Analysis"]
     },
     {
       "name": "Risk Analysis",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Fundamental Risk Concepts",
-        "Risk Assessment"
-      ]
+      "keywords": ["Fundamental Risk Concepts", "Risk Assessment"]
     }
   ],
   "languages": [
@@ -183,16 +155,11 @@
     },
     {
       "language": "Dutch",
-      "fluency": "Advanced",
+      "fluency": "Fluent",
       "icon": ""
     },
     {
       "language": "Spanish",
-      "fluency": "Basic",
-      "icon": ""
-    },
-    {
-      "language": "French",
       "fluency": "Basic",
       "icon": ""
     }
@@ -201,43 +168,17 @@
     {
       "name": "Infrastructure Resilience",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Network Models",
-        "Fragility and Vulnerability Functions"
-      ]
+      "keywords": ["Network Models", "Fragility and Vulnerability Functions"]
     },
     {
       "name": "Energy Systems",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Sustainable Energy",
-        "Energy Transition"
-      ]
+      "keywords": ["Sustainable Energy", "Energy Transition"]
     },
     {
       "name": "Climate Change and Natural Hazards",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Impact Assessment",
-        "Statistical Analysis of Extreme Events"
-      ]
+      "keywords": ["Impact Assessment", "Statistical Analysis of Extreme Events"]
     }
   ]
-  // "references": [
-  //   {
-  //     "name": "Professor John Doe",
-  //     "icon": "fa-solid fa-laptop",
-  //     "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-  //   }
-  // ],
-  // "projects": [
-  //   {
-  //     "name": "Quantum Computing",
-  //     "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-  //     "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-  //     "startDate": "2018-01-01",
-  //     "endDate": "2018-01-01",
-  //     "url": "https://example.com"
-  //   }
-  // ]
 }
