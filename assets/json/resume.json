@@ -72,9 +72,9 @@
       "endDate": "present",
       "summary": "Develop geospatial risk analysis methodologies and mapping software to assess natural hazard impacts across governmental, utility, and community infrastructure and assets.",
       "highlights": [
+        "Manage and support clients in risk analysis projects and in using our interactive mapping platform",
         "Write Python code to process geospatial data, assess the vulnerability, and understand the potential impacts",
         "Develop methods to assess risk to complex infrastructure",
-        "Manage and support clients in risk analysis projects and in using our interactive mapping platform",
         "Led overhaul from JavaScript and Leaflet to React and Mapbox"
       ]
     },
