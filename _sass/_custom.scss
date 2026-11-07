@@ -24,11 +24,16 @@ body {
 }
 
 // Navbar search: show the icon only, hiding the "ctrl k" / "cmd k" hint text.
+// font-size: 0 also collapses the line box, which lifts the icon above the
+// other nav items, so centre it with flex and give it a normal line height.
 #search-toggle .nav-link {
   font-size: 0;
+  display: flex;
+  align-items: center;
 
   i {
     font-size: 0.85rem;
+    line-height: 1.5rem;
   }
 }
 
@@ -49,5 +54,10 @@ body {
   table.table-cv th {
     border-top: none;
     padding: 1px;
+  }
+
+  // Left-align the date badges (centering doesn't line up between entries).
+  .date-column {
+    text-align: left;
   }
 }
