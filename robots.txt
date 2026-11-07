@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://loganbrunnner.github.io/sitemap.xml
+Sitemap: https://loganbrunner.github.io/sitemap.xml
