@@ -32,7 +32,9 @@
       "studyType": "PhD in Civil Engineering",
       "startDate": "2022",
       "endDate": "2025",
-      "courses": ["Thesis: Community Risk and Resilience in Interdependent Infrastructure Systems"]
+      "courses": [
+        "Thesis: Community Risk and Resilience in Interdependent Infrastructure Systems"
+      ]
     },
     {
       "institution": "Johns Hopkins University",
@@ -102,7 +104,10 @@
       "url": "https://www.sra.org/regional-organizations/australia-new-zealand/",
       "startDate": "2022",
       "endDate": "2025",
-      "highlights": ["Helped organize the 2023 & 2024 Annual Meetings.", "Led the SRA Risk Reading Group for 2 years."]
+      "highlights": [
+        "Helped organize the 2023 & 2024 Annual Meetings.",
+        "Led the SRA Risk Reading Group for 2 years."
+      ]
     }
   ],
   "publications": [
@@ -129,22 +134,37 @@
     {
       "name": "Data Statistics",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["Machine Learning", "Bayesian Statistics", "Data Visualization"]
+      "keywords": [
+        "Machine Learning",
+        "Bayesian Statistics",
+        "Data Visualization"
+      ]
     },
     {
       "name": "Programming",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["Python, MATLAB, R", "Linux, Windows, Mac", "Parallel Processing"]
+      "keywords": [
+        "Python, MATLAB, R",
+        "Linux, Windows, Mac",
+        "Parallel Processing"
+      ]
     },
     {
       "name": "Systems Analysis",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["Model Design", "Monte Carlo Simulation", "Sensitivity Analysis"]
+      "keywords": [
+        "Model Design",
+        "Monte Carlo Simulation",
+        "Sensitivity Analysis"
+      ]
     },
     {
       "name": "Risk Analysis",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["Fundamental Risk Concepts", "Risk Assessment"]
+      "keywords": [
+        "Fundamental Risk Concepts",
+        "Risk Assessment"
+      ]
     }
   ],
   "languages": [
@@ -168,17 +188,26 @@
     {
       "name": "Infrastructure Resilience",
       "icon": "fa-solid fa-tag",
-      "keywords": ["Network Models", "Fragility and Vulnerability Functions"]
+      "keywords": [
+        "Network Models",
+        "Fragility and Vulnerability Functions"
+      ]
     },
     {
       "name": "Energy Systems",
       "icon": "fa-solid fa-tag",
-      "keywords": ["Sustainable Energy", "Energy Transition"]
+      "keywords": [
+        "Sustainable Energy",
+        "Energy Transition"
+      ]
     },
     {
       "name": "Climate Change and Natural Hazards",
       "icon": "fa-solid fa-tag",
-      "keywords": ["Impact Assessment", "Statistical Analysis of Extreme Events"]
+      "keywords": [
+        "Impact Assessment",
+        "Statistical Analysis of Extreme Events"
+      ]
     }
   ]
 }
