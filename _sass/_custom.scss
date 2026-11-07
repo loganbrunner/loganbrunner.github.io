@@ -1,0 +1,53 @@
+/*******************************************************************************
+ * Site-specific style overrides, loaded last from assets/css/main.scss.
+ * Everything else comes from the al_folio_core gem untouched.
+ ******************************************************************************/
+
+// Blue accent colour in light mode (template default is purple).
+:root {
+  --global-theme-color: #0076df;
+  --global-hover-color: #0076df;
+}
+
+// Fonts (loaded via third_party_libraries.google_fonts in _config.yml).
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+.profile .more-info {
+  font-family: Barlow, sans-serif;
+}
+
+// Smaller social icons on the about page.
+.social .contact-icons {
+  font-size: 2.5rem;
+}
+
+// Navbar search: show the icon only, hiding the "ctrl k" / "cmd k" hint text.
+#search-toggle .nav-link {
+  font-size: 0;
+
+  i {
+    font-size: 0.85rem;
+  }
+}
+
+#light-toggle i {
+  font-size: 0.85rem;
+}
+
+// CV: v1 runs without Bootstrap, so the CV's list and date tables pick up
+// browser/base defaults (bullet dots, cell top-borders). Restore the old look.
+.cv {
+  ul.list-group {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+
+  table.table-cv td,
+  table.table-cv th {
+    border-top: none;
+    padding: 1px;
+  }
+}
